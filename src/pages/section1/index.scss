@@ -1,0 +1,42 @@
+.umumi {
+  display: flex;
+  justify-content:space-around;
+  align-items:center;
+  margin-top: 50px; 
+  width: 98.5vw;
+  .sol {
+    img {
+      width: 500px;
+    }
+    h1{
+      color: #FE7900;
+    }
+  }
+  .sag {
+    .sag1 {
+      display: flex;
+      justify-content: center;
+      column-gap: 15px;
+      margin-top: 15px;
+    }
+    .sag2{
+        display: flex;
+      justify-content: center;
+      column-gap: 15px;
+      margin-top: 15px;
+    }
+    .sag3{
+        display: flex;
+      justify-content: center;
+      column-gap: 15px;
+      margin-top: 15px;
+    }
+    img {
+      width: 250px;
+      &:hover{
+        transform: scale(1.1);
+        transition: 3s;
+      }
+    }
+  }
+}

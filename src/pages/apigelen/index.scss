@@ -1,0 +1,29 @@
+.card {
+  width: 98.5vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+  row-gap: 30px;
+  column-gap: 100px;
+  background-color: rgb(1, 4, 28);
+  margin-top: 30px;
+  a{
+    text-decoration: none;
+  }
+  .cards {
+    margin-top: 50px;
+    img {
+      width: 300px;
+    }
+    p {
+      color: #fe7900;
+      font-size: 12px;
+    }
+  }
+}
+
+
+
+

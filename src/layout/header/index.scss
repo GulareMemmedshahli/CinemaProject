@@ -1,0 +1,38 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items:center;
+  height: 10vh;
+  z-index: 1;
+  display: flex;
+  // position: fixed;
+  background-color: transparent;
+.search{
+  display: flex;
+  justify-content: space-around;
+  align-items:center;
+  input{
+    width: 140px;
+    height: 20px;
+  }
+}
+  img {
+    width: 30vh;
+  }
+  nav {
+    // margin: 100vh;
+    // padding-left: 50vh;
+    margin-left: 100vh;
+    a {
+      text-decoration: none;
+      margin: 20px;
+      color:#FE7900;
+      font-size: 24px;
+
+      &.active {
+        color: rgb(114, 44, 7);
+      }
+    }
+    margin-top: 20px;
+  }
+}
