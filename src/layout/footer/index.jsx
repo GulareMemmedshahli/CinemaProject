@@ -31,7 +31,7 @@ const  Footerr= () => {
 
       <div className="hisse2">
         <ul className="information">
-            <a href="#"><li className="info">INFORMATION</li></a>
+            <li className="info">INFORMATION</li>
             <a href="#"><li>My Account</li></a>
             <a href="#"><li>Login</li></a>
             <a href="#"><li>My Cart</li></a>
@@ -39,16 +39,8 @@ const  Footerr= () => {
             <a href="#"> <li>Checkout</li></a>      
         </ul>
 
-        {/* <ul className="contact">
-            <a href="#"> <li className="con">CONTACT</li></a>
-            <a href="#"><li>Customer Service</li></a>
-            <a href="#"><li>Store Locator</li></a>
-            <a href="#"><li>Wholesale</li></a>
-            <a href="#"><li>Career</li></a>
-        </ul> */}
-
         <ul className="services">
-            <a href="#"><li className="ser">SERVICES</li></a>
+          <li className="ser">SERVICES</li>
           <a href="#"><li>How to use?</li></a>
             <a href="#"> <li>Shipping</li></a>
            <a href="#"><li>Return Policy</li></a>

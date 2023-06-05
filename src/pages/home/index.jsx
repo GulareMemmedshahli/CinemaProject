@@ -5,6 +5,7 @@ import Slide from '../slide'
 import Sosial from '../sosial'
 import Text from '../text'
 import Sosial2 from '../sosial2'
+import BacktoTop from '../backto'
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <Api/>
       <Text/>
       <Sosial2/>
+      <BacktoTop/>
     </div>
   )
 }
