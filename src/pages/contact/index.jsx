@@ -1,9 +1,14 @@
 import React from 'react'
 import "./index.scss"
+import {Helmet} from "react-helmet";
 const Contact = () => {
   return (
     <div className='contact'>
-      
+      <Helmet>
+                <meta charSet="utf-8" />
+                <title>Contact</title>
+                <link rel="canonical" href="http://mysite.com/example" />
+            </Helmet>
        <div className="telegram">
         <i class="fa-brands fa-telegram fa-2x"></i>
         <a href="https://t.me/seriesazofficial">Telegram:@seriesazofficial</a>

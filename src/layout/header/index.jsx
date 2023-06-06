@@ -17,9 +17,13 @@ const Header = () => {
         </div>
       </div>
       <nav>
+      {/* <input type="text" placeholder="search film">
+        </input>
+         <button>click</button>  */}
         <NavLink to="/">Home</NavLink>
         <NavLink to="/about">Movie</NavLink>
         <NavLink to="/contact">Contact</NavLink>
+        <NavLink to="/login">Login</NavLink>
       </nav>
     </div>
   );

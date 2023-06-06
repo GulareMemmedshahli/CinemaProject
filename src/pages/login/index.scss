@@ -1,0 +1,24 @@
+.login{
+    width: 98.2vh;
+    width: 500px;
+    height: 300px;
+    margin: auto;
+    border: 2px solid rgb(20, 31, 93);
+    border-radius: 2px;
+  h2{
+    display: flex;
+      justify-content: center;
+    }
+    .code{
+        display: flex;
+        justify-content: space-around
+    }
+    .submit{
+        padding-left: 40px;
+    }
+    .social{
+        display: flex;
+        justify-content: space-around
+    }
+} 
+ 
