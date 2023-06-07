@@ -1,24 +1,41 @@
 .login{
-    width: 98.2vh;
-    width: 500px;
-    height: 300px;
-    margin: auto;
-    border: 2px solid rgb(20, 31, 93);
-    border-radius: 2px;
-  h2{
+    height: 100vh;
+  ;
+    background-color: rgb(177, 121, 121); 
+    background-image: linear-gradient(rgb(212, 156, 156), rgb(255, 208, 0));
+.loginicon{
+  h1,.fa-user{
+    color:aliceblue;
     display: flex;
-      justify-content: center;
+    justify-content: center;
+    align-items: center;
+    
+  }
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  input{
+    width: 500px;
+    height: 30px;
+    box-shadow: 10px 5px 5px #FE7900;
+  }
+  label{
+    color: white;
+  }
+  button{
+    width: 500px;
+    height: 30px;
+    background-color:rgb(204, 134, 134) ;
+    color: white;
+    border: none;
+    cursor: pointer;
+    &:hover{
+      opacity: 0.7;
     }
-    .code{
-        display: flex;
-        justify-content: space-around
-    }
-    .submit{
-        padding-left: 40px;
-    }
-    .social{
-        display: flex;
-        justify-content: space-around
-    }
-} 
- 
+  }
+}
+
+}

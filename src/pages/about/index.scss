@@ -1,4 +1,163 @@
-.about{
-    // height: 80vh;
-    padding-top: 10vh;
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10vh;
+  .electric {
+    h3 {
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+      color: #fe7900;
+    }
+    .elecword {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      column-gap: 30px;
+      p {
+        width: 500px;
+      }
+    }
+  }
+  .thirty {
+    h3 {
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+      color: #fe7900;
+    }
+    .thirthword {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      column-gap: 30px;
+      p {
+        width: 500px;
+      }
+    }
+  }
+  .david {
+    h3 {
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+      color: #fe7900;
+    }
+    .davidword {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      column-gap: 30px;
+      p {
+        width: 500px;
+      }
+    }
+  }
+
+  .cursed {
+    h3 {
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+      color: #fe7900;
+    }
+    .cursedword {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      column-gap: 30px;
+      p {
+        width: 500px;
+      }
+    }
+  }
+  .box {
+    h3 {
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+      color: #fe7900;
+    }
+    .boxword {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      column-gap: 30px;
+      p {
+        width: 500px;
+      }
+    }
+  }
+  .pixar {
+    h3 {
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+      color: #fe7900;
+    }
+    .pixarword {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      column-gap: 30px;
+      p {
+        width: 500px;
+      }
+    }
+  }
+  .pixar2 {
+    h3 {
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+      color: #fe7900;
+    }
+    .pixar2word {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      column-gap: 30px;
+      p {
+        width: 500px;
+      }
+    }
+  }
+
+  .disney {
+    h3 {
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+      color: #fe7900;
+    }
+    .disneyword {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      column-gap: 30px;
+      p {
+        width: 500px;
+      }
+    }
+  }
+
+  .thego {
+    h3 {
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+      color: #fe7900;
+    }
+    .thegoword {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      column-gap: 30px;
+      p {
+        width: 500px;
+      }
+    }
+  }
 }

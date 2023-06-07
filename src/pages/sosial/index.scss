@@ -5,6 +5,9 @@
   align-items: center;
   justify-content: center;
   margin-top: 100px;
+  @media only screen and (max-width: 768px) {
+  flex-direction: column;
+  }
   a {
     font-size: 25px;
     margin-left: 20px;
@@ -37,16 +40,21 @@
     width: 1000px;
     height: 150px;
     background-color: #5ebee1;
+ 
     p {
       color: aliceblue;
       font-size: 30px;
       text-align: center;
       padding-top: 10px;
+    //     @media only screen and (max-width: 768px) {
+    //  font-size: 10px;
+    // }
     }
     a{
       color: #FE7900;
       font-size: 30px;
       padding-top: 10px;
+    
     }
   }
 }

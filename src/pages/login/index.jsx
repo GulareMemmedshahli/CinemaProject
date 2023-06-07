@@ -11,7 +11,7 @@ const Login = () => {
             </Helmet>
       
       <div className='login'>
-      <form action=''>
+      {/* <form action=''>
         <h2>Giriş</h2>
         <div className='code'>
         <input type='email' placeholder='Email' className='box'></input>
@@ -28,8 +28,21 @@ const Login = () => {
         <p>Hesabınız yoxdur? <a href='#'>Yenisini yaradın</a></p> 
         </div>
         
-      </form>
-    </div>
+      </form> */}
+      <div className='loginicon'>
+      <i class="fa-solid fa-user fa-4x"></i>
+      <h1>Login</h1>
+      <div className='form'>
+<label htmlFor="username">Username:</label><br />
+<input type="text" id='username'placeholder='Enter your Username...' /><br />
+<label htmlFor="password">Password:</label><br />
+<input type="text"id='password' placeholder='Enter your Password...' /><br />
+<button>Login</button>
+      </div>
+      </div>
+    
+    </div> 
+
     </div>
   )
 }

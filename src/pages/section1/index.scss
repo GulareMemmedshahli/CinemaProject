@@ -4,6 +4,9 @@
   align-items:center;
   margin-top: 50px; 
   width: 98.5vw;
+    @media only screen and (max-width: 768px) {
+      flex-direction: column;
+    }
   .sol {
     img {
       width: 500px;
@@ -18,18 +21,27 @@
       justify-content: center;
       column-gap: 15px;
       margin-top: 15px;
+        @media only screen and (max-width: 768px) {
+      flex-direction: column;
+    }
     }
     .sag2{
         display: flex;
       justify-content: center;
       column-gap: 15px;
       margin-top: 15px;
+        @media only screen and (max-width: 768px) {
+      flex-direction: column;
+    }
     }
     .sag3{
         display: flex;
       justify-content: center;
       column-gap: 15px;
       margin-top: 15px;
+        @media only screen and (max-width: 768px) {
+      flex-direction: column;
+    }
     }
     img {
       width: 250px;
